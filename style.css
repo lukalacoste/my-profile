@@ -1,0 +1,110 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #96B6C5;
+color: #333;
+}
+
+.container {
+width: 700px;
+margin: 40px auto;
+}
+
+.card-white {
+background-color: #F1F0E8;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+padding: 20px;
+margin: 20px 0;
+}
+
+h2 {
+color: ##F1CF96;
+}
+
+/* Additional styling for specific sections */
+.intro {
+text-align: center;
+}
+.img-circle{ 
+
+border-radius: 
+50%; 
+width: 
+200px;
+height: 
+200px;
+}
+.img-shadow{
+box-shadow: 
+5px 5px 
+3px #F1F0E8;
+}
+.footer {
+text-align: center;
+padding: 10px;
+background-color: #F1F0E8;
+color: #333233;
+}
+
+/* Buttons */
+.buttons {
+text-align: center;
+}
+
+.btn {
+display: inline-block;
+padding: 10px 20px;
+background-color: #F1F0E8;
+color: #333233;
+text-decoration: none;
+margin: 10px;
+border-radius: 25px; /* Bords arrondis */
+border: none; /* Supprime la bordure */
+transition: background-color 0.3s ease; /* Transition de couleur en hover */
+}
+
+.btn:hover {
+background-color: #ADC4CE; /* Nouvelle couleur en hover */
+}
+
+/* Media Queries */
+@media (max-width: 960px) {
+.container {
+width: 700px;
+}
+}
+
+@media (max-width: 720px) {
+.container {
+width: 500px;
+}
+}
+
+@media (max-width: 540px) {
+.container {
+width: 300px;
+}
+}
+/* Media Queries */
+@media (max-width: 960px) {
+/* For a screen < 960px, this CSS will be read */
+.container {
+width: 700px;
+}
+}
+
+@media (max-width: 720px) {
+/* For a screen < 720px, this CSS will be read */
+.container {
+width: 500px;
+}
+}
+
+@media (max-width: 540px) {
+/* For a screen < 540px, this CSS will be read */
+.container {
+width: 300px;
+}
+}
